@@ -17,7 +17,7 @@
     "quotmark"      : "single",
     "undef"         : true,
     "unused"        : true,
-    "strict"        : true,
+    "strict"        : false,
     "maxparams"     : false,
     "maxdepth"      : false,
     "maxstatements" : false,
@@ -29,7 +29,6 @@
     "debug"         : false,
     "eqnull"        : false,
     "esversion"     : 5,
-    "moz"           : false,
     "evil"          : false,
     "expr"          : false,
     "funcscope"     : false,
@@ -68,5 +67,7 @@
     "worker"        : false,
     "wsh"           : false,
     "yui"           : false,
-    "globals"       : {}
+    "globals": {
+        "EXAMPLE": true
+      }
 }
